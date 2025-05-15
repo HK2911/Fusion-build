@@ -1,0 +1,278 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    height: 100px;
+    width: 100;
+    /* background-color:white; */
+    background-color: orange;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    height: 80px;
+    width: 160px;
+    background-image: url("../images2/logo.png");
+    background-size: 100% 100%;
+}
+
+.fa-solid {
+    font-size: 1.2rem;
+}
+
+.Home1 {
+    font-size: 1.5rem;
+    margin-left: 250px;
+}
+
+.Home1 a {
+    text-decoration: none;
+    /* color: #285380; */
+    color: white;
+}
+
+.Home {
+    font-size: 1.5rem;
+}
+
+.Home a {
+    text-decoration: none;
+    /* color: #285380; */
+    color: white;
+}
+
+.border a:hover {
+    color: rgb(8, 8, 73);
+}
+
+.inner-banner {
+    background-image: url("../images2/innerbanner1.png");
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.services {
+    height: 1585px;
+    padding: 30px 0px;
+    /* border: 2px solid black; */
+}
+
+.container1 {
+    height: 1515px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 50px;
+    margin-left: 50px;
+    /* border: 2px solid blue; */
+}
+
+.options {
+    height: 1510px;
+    /* border:2px solid green; */
+}
+
+.box1 {
+    height: 265px;
+    /* border:2px solid black; */
+    padding-bottom: 25px;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #000000;
+    margin: 0px 0px 20px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.img-box {
+    display: flex;
+}
+
+.img1 {
+    height: 190px;
+    width: 445px;
+    /* border:2px solid black;  */
+}
+
+.info {
+    padding: 10px 30px 0px 30px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+}
+
+.paging {
+    /* border:2px solid black; */
+    height: 49px;
+    padding: 0px 10px;
+    margin: 0px 35px 25px 35px;
+}
+
+.container2 {
+    height: 45px;
+    /* border:2px solid green; */
+}
+
+.page {
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction:row; */
+    /* border:2px solid brown; */
+}
+
+.pages-number {
+    /* border:2px solid blue; */
+    font-size: 14px;
+    font-family: sans-serif;
+    height: 35px;
+    display: flex;
+}
+
+.clickable {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #ddd;
+    margin: 0px 5px;
+    text-decoration: none;
+    color: #9f9f9f;
+    font-size: 15px;
+    text-align: center;
+    padding: 8px 8px;
+}
+
+.current {
+    color: #000000;
+    border-color: #000000;
+}
+
+.next {
+    border: 1px solid white;
+}
+
+.fizzy:hover {
+    background-color: lightgrey;
+    border-color: black;
+}
+
+.footer1 {
+    height: 200px;
+    background-color: #ff8b28;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image {
+    height: 260px;
+    width: 400px;
+    background-image: url("../images2/people.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: -160px;
+    margin-left: 50px;
+}
+
+.free {
+    height: 200px;
+    width: 400px;
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: justify;
+    margin-top: -35px;
+    margin-left: -100px;
+}
+
+.free img {
+    height: 200px;
+    width: 200px;
+}
+
+.book {
+    margin-top: -15px;
+}
+
+button {
+    color: orange;
+    margin-left: -50px;
+    margin-top: -120px;
+    height: 50px;
+    width: 265px;
+    font-size: 1.5rem;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(253, 194, 85);
+    color: white;
+    scale: 1.1;
+}
+
+.footer-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 230px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+ul a {
+    display: block;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #dddddd;
+    text-decoration: none;
+}
+
+.final {
+    margin-left: 0px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding-top: 25px;
+}
+
+.footer-panel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 60px;
+    padding: 10px;
+}
+
+.pages {
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 0.9rem;
+    text-align: center;
+}
